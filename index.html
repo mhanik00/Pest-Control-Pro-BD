@@ -1,0 +1,437 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Pest Control Pro BD is a professional pest control service in Bangladesh. We offer termite control, rodent control, insect control, mosquito control, bed bug control, and sanitization services.">
+    <meta name="keywords" content="Pest Control Pro BD, termite control, rodent control, insect control, mosquito control, bed bug control, sanitization services, Bangladesh">
+    <meta name="author" content="MH Anik">
+    <link class="favicon rounded-full" rel="icon" type="image/x-icon" href="./rat-4747230_640.jpg">
+    <title>Pest Control Pro BD</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body class="bg-gray-100">
+
+    <!-- Updated Header with Mobile Menu -->
+    <header class="bg-green-600 text-white p-4 sticky top-0 z-50">
+        <div class="container mx-auto flex justify-between items-center">
+            <div class="flex items-center">
+                <i class="fas fa-bug text-3xl mr-2"></i>
+                <h1 class="text-3xl font-bold">Pest Control Pro BD</h1>
+            </div>
+            
+            <!-- Mobile Menu Button -->
+            <button class="md:hidden text-white focus:outline-none" id="menuButton">
+                <i class="fas fa-bars text-2xl"></i>
+            </button>
+
+            <!-- Desktop Navigation -->
+            <nav class="hidden md:block">
+                <ul class="flex space-x-6">
+                    <li><a href="#services" class="hover:text-gray-200 hover:bg-green-700 px-3 py-2 rounded-lg transition-all duration-300"><i class="fas fa-tools mr-1"></i> Services</a></li>
+                    <li><a href="#blog" class="hover:text-gray-200 hover:bg-green-700 px-3 py-2 rounded-lg transition-all duration-300"><i class="fas fa-book mr-1"></i> Blogs</a></li>
+                    <li><a href="#about" class="hover:text-gray-200 hover:bg-green-700 px-3 py-2 rounded-lg transition-all duration-300"><i class="fas fa-info-circle mr-1"></i> About Us</a></li>
+                    <li><a href="#contact" class="hover:text-gray-200 hover:bg-green-700 px-3 py-2 rounded-lg transition-all duration-300"><i class="fas fa-envelope mr-1"></i> Contact</a></li>
+                   
+                </ul>
+            </nav>
+        </div>
+
+        <!-- Mobile Navigation Menu -->
+        <div class="md:hidden hidden" id="mobileMenu">
+            <nav class="mt-4 border-t border-green-500 pt-4">
+                <ul class="space-y-2">
+                    <li><a href="#services" class="block hover:bg-green-700 px-3 py-2 rounded-lg transition-all duration-300"><i class="fas fa-tools mr-1"></i> Services</a></li>
+                    <li><a href="#about" class="block hover:bg-green-700 px-3 py-2 rounded-lg transition-all duration-300"><i class="fas fa-info-circle mr-1"></i> About Us</a></li>
+                    <li><a href="#contact" class="block hover:bg-green-700 px-3 py-2 rounded-lg transition-all duration-300"><i class="fas fa-envelope mr-1"></i> Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section class="relative h-[600px] py-12">
+        <div class="absolute inset-0">
+            <img src="./pexels-michelangelo-buonarroti-4176036.jpg" alt="Pest Control Hero" class="w-full h-full object-cover">
+            <div class="absolute inset-0 bg-black opacity-60"></div>
+        </div>
+        <div class="relative container mx-auto px-6 h-full flex items-center justify-between">
+            <div class="text-white max-w-2xl space-y-8">
+                <span class="bg-green-600 px-6 py-2 rounded-full text-sm font-medium tracking-wide inline-block shadow-lg animate-bounce hover:scale-105 transition-transform duration-300">
+                    <i class="fas fa-shield-alt mr-2"></i>
+                    Your Trusted Pest Control Partner
+                    <i class="fas fa-star ml-2"></i>
+                </span>
+                <h2 class="text-2xl md:text-4xl font-bold leading-tight">Professional Pest Control Services in Bangladesh</h2>
+                <p class="text-xl leading-relaxed opacity-90">Protecting your home and business from unwanted pests with eco-friendly solutions and guaranteed results</p>
+                <div class="flex flex-wrap gap-6 pt-4">
+                    <a href="#contact" class="bg-green-600 hover:bg-green-700 text-white px-8 py-4 rounded-lg inline-block transition-all duration-300 transform hover:scale-105 shadow-lg font-medium">
+                        <i class="fas fa-phone-alt mr-3"></i>Get Free Quote
+                    </a>
+                    <a href="#services" class="border-2 border-white hover:bg-white hover:text-green-600 text-white px-8 py-4 rounded-lg inline-block transition-all duration-300 shadow-lg font-medium">
+                        <i class="fas fa-arrow-right mr-3"></i>Our Services
+                    </a>
+                </div>
+            </div>
+    </section>
+   
+    <!-- Services Section -->
+    <section id="services" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Our Services</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white p-6 rounded-lg shadow-lg group">
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="./termite-treatment-pest-control-services-500x500.jpeg" alt="Termite Control" class="w-full h-48 object-cover rounded-lg mb-4 group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2"><i class="fas fa-bug mr-2 text-green-600"></i>Termite Control</h3>
+                    <p class="text-gray-600 mb-4">Professional termite treatment solutions to protect your property from damage.</p>
+                    <a href="services/termite-control.html" class="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors duration-300">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg group">
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="./pexels-michelangelo-buonarroti-4176036.jpg" alt="Rodent Control" class="w-full h-48 object-cover rounded-lg mb-4 group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2"><i class="fas fa-mouse mr-2 text-green-600"></i>Rodent Control</h3>
+                    <p class="text-gray-600 mb-4">Effective rodent elimination and prevention services for your peace of mind.</p>
+                    <a href="services/rodent-control.html" class="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors duration-300">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg group">
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="./insect-control-500x500.jpg" alt="Insect Control" class="w-full h-48 object-cover rounded-lg mb-4 group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2"><i class="fas fa-spider mr-2 text-green-600"></i>Insect Control</h3>
+                    <p class="text-gray-600 mb-4">Comprehensive insect control services for all types of pest problems.</p>
+                    <a href="services/insect-control.html" class="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors duration-300">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg group">
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="./iymages.jpg" alt="Mosquito Control" class="w-full h-48 object-cover rounded-lg mb-4 group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2"><i class="fas fa-mosquito mr-2 text-green-600"></i>Mosquito Control</h3>
+                    <p class="text-gray-600 mb-4">Advanced mosquito elimination techniques for a bite-free environment.</p>
+                    <a href="services/mosquito-control.html" class="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors duration-300">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg group">
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="./images.jpg" alt="Bed Bug Control" class="w-full h-48 object-cover rounded-lg mb-4 group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2"><i class="fas fa-bed mr-2 text-green-600"></i>Bed Bug Control</h3>
+                    <p class="text-gray-600 mb-4">Complete bed bug elimination services for homes and businesses.</p>
+                    <a href="services/bed-bug-control.html" class="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors duration-300">Learn More</a>
+                </div>
+                <div class="bg-white p-6 rounded-lg shadow-lg group">
+                    <div class="overflow-hidden rounded-lg">
+                        <img src="./images3.jpg" alt="Sanitization Services" class="w-full h-48 object-cover rounded-lg mb-4 group-hover:scale-110 transition-transform duration-500">
+                    </div>
+                    <h3 class="text-xl font-semibold mb-2"><i class="fas fa-spray-can mr-2 text-green-600"></i>Sanitization Services</h3>
+                    <p class="text-gray-600 mb-4">Professional sanitization and disinfection services for all spaces.</p>
+                    <a href="services/sanitization.html" class="inline-block bg-green-600 text-white px-4 py-2 rounded hover:bg-green-700 transition-colors duration-300">Learn More</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Blog Section -->
+    <section id="blog" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Latest Blog Posts</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="./home.jpg" alt="Pest Prevention Tips" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Essential Pest Prevention Tips for Your Home</h3>
+                        <p class="text-gray-600 mb-4">Learn the most effective ways to keep pests out of your home with these professional tips...</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-500"><i class="far fa-calendar-alt mr-2"></i>June 15, 2023</span>
+                            <a href="blog/pest-prevention-tips.html" class="text-green-600 hover:text-green-700">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="./Petri-Blog-March.webp" alt="Seasonal Pest Guide" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Seasonal Pest Guide: What to Watch For</h3>
+                        <p class="text-gray-600 mb-4">Understand which pests are active during different seasons and how to prepare...</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-500"><i class="far fa-calendar-alt mr-2"></i>June 10, 2023</span>
+                            <a href="blog/seasonal-pest-guide.html" class="text-green-600 hover:text-green-700">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                    <img src="./eco.jpg" alt="Eco-Friendly Pest Control" class="w-full h-48 object-cover">
+                    <div class="p-6">
+                        <h3 class="text-xl font-semibold mb-2">Eco-Friendly Pest Control Methods</h3>
+                        <p class="text-gray-600 mb-4">Discover environmentally conscious approaches to managing common household pests...</p>
+                        <div class="flex items-center justify-between">
+                            <span class="text-sm text-gray-500"><i class="far fa-calendar-alt mr-2"></i>June 5, 2023</span>
+                            <a href="blog/eco-friendly-pest-control.html" class="text-green-600 hover:text-green-700">Read More →</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Why Choose Us Section -->
+    <section class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Why Choose Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div class="p-6 bg-gray-50 rounded-lg shadow-lg text-center">
+                    <i class="fas fa-shield-alt text-4xl text-green-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">Safe & Effective</h3>
+                    <p class="text-gray-600">We use environmentally responsible products that are safe for your family and pets while being tough on pests.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg shadow-lg text-center">
+                    <i class="fas fa-clock text-4xl text-green-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">24/7 Support</h3>
+                    <p class="text-gray-600">Our team is available round the clock to handle any pest emergency situations you may encounter.</p>
+                </div>
+                <div class="p-6 bg-gray-50 rounded-lg shadow-lg text-center">
+                    <i class="fas fa-certificate text-4xl text-green-600 mb-4"></i>
+                    <h3 class="text-xl font-semibold mb-3">Certified Experts</h3>
+                    <p class="text-gray-600">Our technicians are highly trained and certified, ensuring professional service delivery.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- About Us Section -->
+    <section id="about" class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8 items-center">
+                <div>
+                    <h2 class="text-3xl font-bold mb-4">About Us</h2>
+                    <p class="text-gray-600 mb-4">With over 10 years of experience, Pest Control Pro BD has been providing top-notch pest control services across Bangladesh.</p>
+                    <ul class="space-y-2">
+                        <li><i class="fas fa-check-circle text-green-600 mr-2"></i>Licensed & Certified Professionals</li>
+                        <li><i class="fas fa-check-circle text-green-600 mr-2"></i>Eco-friendly Solutions</li>
+                        <li><i class="fas fa-check-circle text-green-600 mr-2"></i>24/7 Emergency Service</li>
+                        <li><i class="fas fa-check-circle text-green-600 mr-2"></i>100% Satisfaction Guaranteed</li>
+                    </ul>
+                </div>
+                <div>
+                    <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216" alt="About Us" class="rounded-lg shadow-lg">
+                </div>
+            </div>
+        </div>
+    </section>
+      <!-- Experience Section -->
+    <section class="py-16 bg-gray-100">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-12 text-center">Our Experience</h2>
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8 text-center">
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <div class="text-4xl font-bold text-green-600 mb-2">
+                        <span class="counter" data-target="1000">0</span>+
+                    </div>
+                    <p class="text-gray-600">Happy Clients</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <div class="text-4xl font-bold text-green-600 mb-2">
+                        <span class="counter" data-target="10">0</span>+
+                    </div>
+                    <p class="text-gray-600">Years Experience</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <div class="text-4xl font-bold text-green-600 mb-2">
+                        <span class="counter" data-target="5000">0</span>+
+                    </div>
+                    <p class="text-gray-600">Projects Completed</p>
+                </div>
+                <div class="p-6 bg-white rounded-lg shadow-lg">
+                    <div class="text-4xl font-bold text-green-600 mb-2">
+                        <span class="counter" data-target="50">0</span>+
+                    </div>
+                    <p class="text-gray-600">Team Members</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script>
+        const counters = document.querySelectorAll('.counter');
+        const speed = 300;
+
+        // Create Intersection Observer
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                // When section becomes visible
+                if (entry.isIntersecting) {
+                    // Reset all counters to 0
+                    counters.forEach(counter => {
+                        counter.innerText = "0";
+                    });
+                    // Start counting animation
+                    counters.forEach(counter => {
+                        const updateCount = () => {
+                            const target = +counter.getAttribute('data-target');
+                            const count = +counter.innerText;
+                            const inc = target / speed;
+
+                            if (count < target) {
+                                counter.innerText = Math.ceil(count + inc);
+                                setTimeout(updateCount, 1);
+                            } else {
+                                counter.innerText = target;
+                            }
+                        };
+                        updateCount();
+                    });
+                }
+            });
+        }, { threshold: 0.5 }); // Trigger when 50% of section is visible
+
+        // Observe the section containing counters
+        observer.observe(document.querySelector('.py-16.bg-gray-100'));
+    </script>
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 bg-white">
+        <div class="container mx-auto px-4">
+            <h2 class="text-3xl font-bold mb-8 text-center">Contact Us</h2>
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+                <div class="bg-gray-100 p-6 rounded-lg">
+                    <h3 class="text-xl font-semibold mb-4">Get in Touch</h3>
+                    <form id="contactForm" class="space-y-4">
+                        <div>
+                            <label for="name" class="block text-gray-700">Name:</label>
+                            <input type="text" id="name" class="w-full p-2 border rounded-lg" required>
+                        </div>
+                        <div>
+                            <label for="email" class="block text-gray-700">Email:</label>
+                            <input type="email" id="email" class="w-full p-2 border rounded-lg" required>
+                        </div>
+                        <div>
+                            <label for="phone" class="block text-gray-700">Phone:</label>
+                            <input type="tel" id="phone" class="w-full p-2 border rounded-lg" required>
+                        </div>
+                        <div>
+                            <label for="message" class="block text-gray-700">Message:</label>
+                            <textarea id="message" class="w-full p-2 border rounded-lg h-32" required></textarea>
+                        </div>
+                        <button type="submit" class="bg-green-600 hover:bg-green-700 text-white px-6 py-3 rounded-lg">
+                            <i class="fas fa-paper-plane mr-2"></i>Send Message
+                        </button>
+                    </form>
+                </div>
+                <div>
+                    <div class="bg-gray-100 p-6 rounded-lg mb-6">
+                        <h3 class="text-xl font-semibold mb-4">Contact Information</h3>
+                        <div class="space-y-4">
+                            <p><i class="fas fa-map-marker-alt text-green-600 mr-2"></i>123 Main Street, Dhaka, Bangladesh</p>
+                            <p><i class="fas fa-phone text-green-600 mr-2"></i>+880 1234-567890</p>
+                            <p><i class="fas fa-envelope text-green-600 mr-2"></i>info@pestcontrolprobd.com</p>
+                        </div>
+                    </div>
+                    <div class="bg-gray-100 p-6 rounded-lg">
+                        <h3 class="text-xl font-semibold mb-4">Business Hours</h3>
+                        <div class="space-y-2">
+                            <p><i class="fas fa-clock text-green-600 mr-2"></i>Monday - Friday: 9:00 AM - 6:00 PM</p>
+                            <p><i class="fas fa-clock text-green-600 mr-2"></i>Saturday: 10:00 AM - 4:00 PM</p>
+                            <p><i class="fas fa-clock text-green-600 mr-2"></i>Sunday: Closed</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Updated Footer -->
+    <footer class="bg-green-600 text-white py-8">
+        <div class="container mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-4 gap-8">
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Pest Control Pro BD</h3>
+                    <p class="text-sm">Your trusted partner in pest control services. Providing professional and eco-friendly solutions since 2014.</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Quick Links</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#services" class="hover:text-gray-200 transition-colors duration-300"><i class="fas fa-chevron-right mr-2"></i>Services</a></li>
+                        <li><a href="#blog" class="hover:text-gray-200 transition-colors duration-300"><i class="fas fa-chevron-right mr-2"></i>Blogs</a></li>
+                        <li><a href="#about" class="hover:text-gray-200 transition-colors duration-300"><i class="fas fa-chevron-right mr-2"></i>About Us</a></li>
+                        <li><a href="#contact" class="hover:text-gray-200 transition-colors duration-300"><i class="fas fa-chevron-right mr-2"></i>Contact</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Contact Info</h3>
+                    <ul class="space-y-2">
+                        <li><i class="fas fa-map-marker-alt mr-2"></i>123 Main Street, Dhaka, Bangladesh</li>
+                        <li><i class="fas fa-phone mr-2"></i>+880 1234-567890</li>
+                        <li><i class="fas fa-envelope mr-2"></i>info@pestcontrolprobd.com</li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-semibold mb-4">Follow Us</h3>
+                    <div class="flex space-x-4">
+                        <a href="#" class="hover:text-gray-200 transition-colors duration-300"><i class="fab fa-facebook fa-2x"></i></a>
+                        <a href="#" class="hover:text-gray-200 transition-colors duration-300"><i class="fab fa-twitter fa-2x"></i></a>
+                        <a href="#" class="hover:text-gray-200 transition-colors duration-300"><i class="fab fa-instagram fa-2x"></i></a>
+                        <a href="#" class="hover:text-gray-200 transition-colors duration-300"><i class="fab fa-linkedin fa-2x"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="mt-8 pt-8 border-t border-green-500 text-center">
+                <p>&copy; 2024 Pest Control Pro BD. All rights reserved|Developed by <a href="https://web.facebook.com/profile.php?id=100090239929300" target="_blank">MH Anik</a></p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        $(document).ready(function() {
+            // Smooth scrolling for anchor links
+            $('a[href^="#"]').on('click', function(event) {
+                event.preventDefault();
+                $('html, body').animate({
+                    scrollTop: $($(this).attr('href')).offset().top - 70
+                }, 1000);
+            });
+
+            // Form submission
+            $('#contactForm').on('submit', function(e) {
+                e.preventDefault();
+                alert('Thank you for your message! We will contact you soon.');
+                $(this).trigger('reset');
+            });
+        });
+    </script>
+
+    <!-- Add this JavaScript before the closing body tag -->
+    <script>
+        // Mobile menu toggle
+        const menuButton = document.getElementById('menuButton');
+        const mobileMenu = document.getElementById('mobileMenu');
+        
+        menuButton.addEventListener('click', () => {
+            mobileMenu.classList.toggle('hidden');
+            // Change menu icon
+            const menuIcon = menuButton.querySelector('i');
+            menuIcon.classList.toggle('fa-bars');
+            menuIcon.classList.toggle('fa-times');
+        });
+
+        // Close mobile menu when clicking a link
+        const mobileLinks = mobileMenu.getElementsByTagName('a');
+        for (let link of mobileLinks) {
+            link.addEventListener('click', () => {
+                mobileMenu.classList.add('hidden');
+                const menuIcon = menuButton.querySelector('i');
+                menuIcon.classList.add('fa-bars');
+                menuIcon.classList.remove('fa-times');
+            });
+        }
+
+        // Close mobile menu when clicking outside
+        document.addEventListener('click', (e) => {
+            if (!menuButton.contains(e.target) && !mobileMenu.contains(e.target)) {
+                mobileMenu.classList.add('hidden');
+                const menuIcon = menuButton.querySelector('i');
+                menuIcon.classList.add('fa-bars');
+                menuIcon.classList.remove('fa-times');
+            }
+        });
+    </script>
+
+</body>
+</html>
